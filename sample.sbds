@@ -1,0 +1,32 @@
+{
+  "format": "SBDS",
+  "version": 1,
+  "rules": [
+    {
+      "id": "japanese-azerbaijani-daytime",
+      "content": "こんにちは！ / Salam!",
+      "priority": 10,
+      "conditions": {
+        "languages": ["ja", "az"],
+        "timeRanges": [
+          { "start": "09:00", "end": "14:00" },
+          { "start": "18:00", "end": "23:00" }
+        ],
+        "dates": []
+      }
+    },
+    {
+      "id": "english-daytime",
+      "content": "Hello!",
+      "priority": 5,
+      "conditions": {
+        "languages": ["en"],
+        "timeRanges": [
+          { "start": "09:00", "end": "14:00" },
+          { "start": "18:00", "end": "23:00" }
+        ],
+        "dates": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+SBDS format materials
+
+The SBDS format specification in docs/sbds-spec.md and the example file
+samples/sample.sbds are dedicated to the public domain under the CC0 1.0
+Universal dedication.
+
+CC0 1.0 Universal legal code:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+This dedication applies only to the format specification and example file
+identified above. It does not apply to the Yomlingo Code application source
+code or other repository contents.
